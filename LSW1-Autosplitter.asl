@@ -1,5 +1,3 @@
-// LSW1 Autosplitter by Mel and Borger
-
 state("LegoStarwars")
 {
     byte status : 0x39C58D;
