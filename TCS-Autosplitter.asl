@@ -5,6 +5,13 @@ state("LEGOStarWarsSaga")
     byte newgame : 0x47B738;
 }
 
+state("LEGOStarWarsSaga.exe.unpacked")
+{
+    byte status : 0x526BD0;
+    byte statust : 0x481C38;
+    byte newgame : 0x47B738;
+}
+
 startup
 {
     vars.stopwatch = new Stopwatch();
