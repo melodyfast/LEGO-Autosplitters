@@ -1,7 +1,7 @@
 state("LEGOCloneWars")
 {
-    byte status : 0xB9FAA4;
-    byte statust : 0xBBC69C;
+    byte status : 0xBBC744;
+    byte statust : 0xBBC745;
     byte newgame : 0xA6DF90;
     byte newgamet : 0xA6DFA2;
 }
@@ -13,7 +13,7 @@ startup
 
 split
 {
-    if (current.status > old.status && current.statust > old.statust) return true;
+    if (current.status != old.status && current.statust != old.statust) return true;
 }
 
 start
