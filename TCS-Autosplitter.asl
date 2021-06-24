@@ -35,7 +35,7 @@ split
 {
     if (settings["splitdelay"] && current.status > old.status && current.statust != old.statust) vars.stopwatch.Restart();
     if (vars.stopwatch.ElapsedMilliseconds > 767) return true;
-    if (settings["splitcs"] && current.status > old.status) return true;
+    if (settings["splitcs"] && current.status > old.status && current.statust != old.statust) return true;
     if (settings["bespincs"] && current.posb == 90 && current.posc == 180 && current.stream == "Escape_Outro") return true;
 }
 
