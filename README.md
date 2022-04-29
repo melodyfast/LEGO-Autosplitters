@@ -1,8 +1,9 @@
 # LEGO-Autosplitters
-Creating autosplitters for PC LEGO games in the livesplit ASL format.
+Creating autosplitters and load removers for PC LEGO games in the livesplit ASL format.
 
-LSW1, TCS, and LIJ are currently finished with the exception of ending splits which will be added in later versions.
+LSW1, TCS, LIJ, and DCSV, and TSS are currently finished with the exception autosplitting for TSS.
 
-DCSV is currently finished but has not been tested, LTI is working but has an issue with time calculation that needs to be fixed.
+LTI is working but has an issue with time calculation that needs to be fixed.
 
-Other scripts are currently in progress.
+Current projects:
+1. Autosplitting for TSS
